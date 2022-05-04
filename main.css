@@ -643,8 +643,12 @@ p{
 }
 
 /* Estilo tabla */
+.width-80percentage{
+    width: 80%;
+}
+
 table{
-    width: 1000px;
+    /* width: 1000px; */
     justify-content: center;
     align-items: center;
 }
@@ -665,7 +669,7 @@ td, th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #004225;
+    background-color: #004225!important;
     color: white;
   }
 
